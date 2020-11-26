@@ -1,9 +1,11 @@
+import grammar from './small.js';
 import Editor from './Editor.js';
 import React, { useState, useEffect } from 'react';
 import { Console, Hook, Unhook } from 'console-feed';
 
 const nearley = require('nearley');
-const grammar = require('./small.js');
+/* const grammar = require('./small.js'); */
+
 const generate = require('./generate.js').default;
 
 function App() {
