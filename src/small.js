@@ -505,3 +505,4 @@
     window.grammar = grammar;
   }
 })();
+export default grammar;

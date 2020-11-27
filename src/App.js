@@ -1,4 +1,4 @@
-import grammar from './small.js';
+import { grammar } from './small.js';
 import Editor from './Editor.js';
 import React, { useState, useEffect } from 'react';
 import { Console, Hook, Unhook } from 'console-feed';
