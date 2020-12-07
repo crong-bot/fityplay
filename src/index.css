@@ -87,7 +87,7 @@ body {
 .right_pane{
   display:flex;
   flex-direction: column;
-  background-color: ghostwhite;
+  background-color: coral;
   position: relative;
   margin-top: 45px;
   margin-right: 20px;

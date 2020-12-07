@@ -4,6 +4,7 @@ import grammar from '../small.js';
 import { prefunc as fityfunc } from './prefunc.js';
 import 가람시 from '../data/weatherData.json';
 import { Line } from 'react-chartjs-2';
+import chartmaker from './chartmaker';
 
 const nearley = require('nearley');
 const generate = require('../generate.js').default;
@@ -11,10 +12,12 @@ const generate = require('../generate.js').default;
 function Transcompile(props) {
   const [database, setDatabase] = useState([]);
   const [chartdatas, setChartdatas] = useState('');
+  const [chartshape, setChartshape] = useState('');
   let data = [];
   let keys;
   let values;
   let labels = '차트제목';
+  let shape = '';
 
   useEffect(() => {
     const parser = new nearley.Parser(nearley.Grammar.fromCompiled(grammar));
@@ -43,6 +46,7 @@ function Transcompile(props) {
         return newerror;
       }
     }
+    setChartshape(shape);
     setChartdatas({
       labels: keys,
       datasets: [
@@ -65,7 +69,8 @@ function Transcompile(props) {
 
   return (
     <>
-      <Line data={chartdatas} />
+      {chartmaker(chartshape, chartdatas)}
+      {/* <Line data={chartdatas} /> */}
     </>
   );
 }
