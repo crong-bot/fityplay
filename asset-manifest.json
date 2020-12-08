@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/fityplay/static/css/main.0e65aa0f.chunk.css",
-    "main.js": "/fityplay/static/js/main.0d25f464.chunk.js",
-    "main.js.map": "/fityplay/static/js/main.0d25f464.chunk.js.map",
+    "main.js": "/fityplay/static/js/main.cf4d489b.chunk.js",
+    "main.js.map": "/fityplay/static/js/main.cf4d489b.chunk.js.map",
     "runtime-main.js": "/fityplay/static/js/runtime-main.bff16a7a.js",
     "runtime-main.js.map": "/fityplay/static/js/runtime-main.bff16a7a.js.map",
     "static/css/2.c930b277.chunk.css": "/fityplay/static/css/2.c930b277.chunk.css",
-    "static/js/2.bbf4db49.chunk.js": "/fityplay/static/js/2.bbf4db49.chunk.js",
-    "static/js/2.bbf4db49.chunk.js.map": "/fityplay/static/js/2.bbf4db49.chunk.js.map",
+    "static/js/2.e53a0a2b.chunk.js": "/fityplay/static/js/2.e53a0a2b.chunk.js",
+    "static/js/2.e53a0a2b.chunk.js.map": "/fityplay/static/js/2.e53a0a2b.chunk.js.map",
     "index.html": "/fityplay/index.html",
     "static/css/2.c930b277.chunk.css.map": "/fityplay/static/css/2.c930b277.chunk.css.map",
     "static/css/main.0e65aa0f.chunk.css.map": "/fityplay/static/css/main.0e65aa0f.chunk.css.map",
-    "static/js/2.bbf4db49.chunk.js.LICENSE.txt": "/fityplay/static/js/2.bbf4db49.chunk.js.LICENSE.txt",
+    "static/js/2.e53a0a2b.chunk.js.LICENSE.txt": "/fityplay/static/js/2.e53a0a2b.chunk.js.LICENSE.txt",
     "static/media/map1.44f9f36c.png": "/fityplay/static/media/map1.44f9f36c.png",
     "static/media/tree.a4f0a4d0.png": "/fityplay/static/media/tree.a4f0a4d0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bff16a7a.js",
     "static/css/2.c930b277.chunk.css",
-    "static/js/2.bbf4db49.chunk.js",
+    "static/js/2.e53a0a2b.chunk.js",
     "static/css/main.0e65aa0f.chunk.css",
-    "static/js/main.0d25f464.chunk.js"
+    "static/js/main.cf4d489b.chunk.js"
   ]
 }
