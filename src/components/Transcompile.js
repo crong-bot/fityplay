@@ -47,24 +47,7 @@ function Transcompile(props) {
       }
     }
     setChartshape(shape);
-    setChartdatas({
-      labels: keys,
-      datasets: [
-        /* {
-          label: 'First dataset',
-          data: [33, 53, 85, 41, 44, 65],
-          fill: true,
-          backgroundColor: 'rgba(75,192,192,0.2)',
-          borderColor: 'rgba(75,192,192,1)',
-        }, */
-        {
-          label: labels,
-          data: values,
-          fill: false,
-          borderColor: '#742774',
-        },
-      ],
-    });
+    setChartdatas(data);
   }, [props.value]);
 
   return (

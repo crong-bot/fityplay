@@ -8,11 +8,9 @@ export const prefunc = `function 화면(...arg) {
        let results=getV(ww,data)   
        return results
       }
-      function 막대그래프(chartdata,label='그래프'){
-        keys=Object.getOwnPropertyNames(chartdata)
-        values=keys.map(e=>chartdata[e])
-        labels=label
-        shape='막대그래프'       
+      function 막대그래프(inputs){
+               data=inputs
+               shape='막대그래프'
       }
       function 꺽은선그래프(chartdata,label='그래프'){
         keys=Object.getOwnPropertyNames(chartdata)
@@ -20,10 +18,8 @@ export const prefunc = `function 화면(...arg) {
         labels=label
         shape='꺽은선그래프'       
       }
-      function 원그래프(chartdata,label='그래프'){
-        keys=Object.getOwnPropertyNames(chartdata)
-        values=keys.map(e=>chartdata[e])
-        labels=label
+      function 원그래프(inputs){
+        data=inputs
         shape='원그래프'       
       }
       function 믹서기(...arg){
